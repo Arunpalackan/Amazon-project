@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Amazon Application Test Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.amazon.qa.ExtentReport.ExtentReportListener"/>
+  </listeners>
+  <test name="Amazon App Test Cases(failed)">
+    <classes>
+      <class name="com.amazon.qa.TestCases.LoginPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.amazon.qa.TestCases.LoginPageTest -->
+      <class name="com.amazon.qa.TestCases.HomePageTest">
+        <methods>
+          <include name="selectItem"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.amazon.qa.TestCases.HomePageTest -->
+      <class name="com.amazon.qa.TestCases.ItemPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="ItemPageTitleTest"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.amazon.qa.TestCases.ItemPageTest -->
+      <class name="com.amazon.qa.TestCases.PaymentPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="AddCreditcardDetails"/>
+        </methods>
+      </class> <!-- com.amazon.qa.TestCases.PaymentPageTest -->
+    </classes>
+  </test> <!-- Amazon App Test Cases(failed) -->
+</suite> <!-- Failed suite [Amazon Application Test Automation Test Suite] -->
